@@ -1,0 +1,11 @@
+.products {
+  margin-bottom: 40px;
+}
+
+.products .product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+
+}
